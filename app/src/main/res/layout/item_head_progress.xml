@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_listview_header_arrow_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minWidth="30dip"
+        android:visibility="visible"
+        android:src="@drawable/common_listview_headview_red_arrow" />
+
+    <ImageView
+        android:id="@+id/iv_listview_header_arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:minWidth="30dip"
+        android:visibility="visible"
+        android:src="@drawable/common_listview_headview_red_arrow" />
+
+    <!--&lt;!&ndash; android:indeterminateDrawable="@drawable/common_progressbar",-->
+    	<!--利用rotate旋转动画 + shape的颜色变化 构造ProgressBar的旋转颜色 &ndash;&gt;-->
+    <!--<ProgressBar-->
+        <!--android:padding="10dp"-->
+        <!--android:id="@+id/pb_listview_header"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--style="?android:attr/progressBarStyleSmallInverse"-->
+        <!--android:visibility="gone" />-->
+</FrameLayout>
